@@ -9,7 +9,7 @@ import {
 } from "../redux/actions";
 import * as data from "../../db.json";
 
-xdescribe("Actions", () => {
+describe("Actions", () => {
   const mockStore = configureStore([thunk]);
   const store = mockStore({ houses: [] });
 
